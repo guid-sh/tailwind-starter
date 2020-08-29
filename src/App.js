@@ -1,15 +1,28 @@
 import React from "react";
+import GuidHeader from "./components/GuidHeader";
+import GuidGenerator from "./components/GuidGenerator";
 
 class App extends React.Component {
+
     render() {
-        const { name } = this.props;
+
         return (
-            <>
-                <h1 className="text-4xl text-white bg-black">
-                    Hello {name}
-                </h1>
-            </>
+            <React.Fragment>
+
+                    <div className="bg-gray-100 h-screen font-sans">
+
+                        <div className="container mx-auto">
+
+                            <GuidHeader />
+                                <GuidGenerator />
+
+                        </div>
+
+                    </div>
+
+            </React.Fragment>
         );
+
     }
 }
 
