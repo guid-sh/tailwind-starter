@@ -7,7 +7,7 @@ import { faSyncAlt } from "@fortawesome/free-solid-svg-icons/faSyncAlt";
 const GuidGenerator = () => {
 
     return (
-        <div className="bg-white shadow overflow-hidden rounded-br-lg rounded-bl-lg rounded-tr-lg md:w-1/2 mx-auto">
+        <div className="bg-white shadow overflow-hidden rounded-br-lg rounded md:w-1/2 mx-auto">
             <div className="px-4 py-5 border-b border-gray-200 sm:px-6 relative">
 
                 <div className="mx-auto">
